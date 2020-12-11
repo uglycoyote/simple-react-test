@@ -11,7 +11,13 @@
             "reAttach": true,
             "url": "http://localhost:1234/index.html",
             "webRoot": "${workspaceFolder}",
-            "enableCRAWorkaround": true
+            "enableCRAWorkaround": true,
+            "log": {
+                "consoleLevel": {
+                    "PathConversion": "Debug",
+                    "default": "Error"
+                }
+            }
         },
     ]
 }
