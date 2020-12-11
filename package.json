@@ -1,0 +1,20 @@
+{
+  "name": "simple-react-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mike Cline <uglycoyote@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "parcel": "^1.12.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
